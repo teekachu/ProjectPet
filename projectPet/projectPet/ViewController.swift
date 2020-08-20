@@ -23,6 +23,21 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     @IBOutlet var officeHours: UILabel!
     @IBOutlet var petsInformation: UITableView!
     
+    
+    @IBAction func buttonTapped(_ sender: Any) {
+        //1 find the date via calendar and convert hour
+        
+        let date = Date()
+        let calendar = Calendar.current
+        let hour = calendar.component(.hour, from: date)
+        
+        if hour >= 9 && hour < 18 {
+            alertWorkHours()
+        } else {
+            alertNoneWorkHours()
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

@@ -4,7 +4,7 @@ Simple project created for a small veterinary clinic. The application allow thei
 
 	•	Fetch the config.json file to check for chat and call feature availability and work hours. 
 
-	•	Show different alert and disable call button if outside of work ours. 
+	•	Show different alert as well as disable call, chat buttons accordingly if outside of work ours. 
 	
 	•	Fetch the pets.json for pet information to display on the screen
 

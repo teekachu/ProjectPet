@@ -16,8 +16,11 @@ Simple project created for a small veterinary clinic. The application allow thei
 
 Sample Images: 
 
-<img width="358" alt="Screen Shot 2020-12-22 at 10 20 27 AM" src="https://user-images.githubusercontent.com/64371072/102921415-33f21c00-4441-11eb-9c25-f96195257de3.png"><img width="376" alt="Screen Shot 2020-12-22 at 10 21 57 AM" src="https://user-images.githubusercontent.com/64371072/102921422-348ab280-4441-11eb-8017-48f5161433d6.png">
 
-<img width="365" alt="Screen Shot 2020-12-22 at 10 23 03 AM" src="https://user-images.githubusercontent.com/64371072/102921433-36ed0c80-4441-11eb-91ab-943d5fda801a.png"><img width="365" alt="Screen Shot 2020-12-22 at 10 29 21 AM" src="https://user-images.githubusercontent.com/64371072/102921435-381e3980-4441-11eb-93bc-40a94e4948f7.png">
+<img src="https://user-images.githubusercontent.com/64371072/102921415-33f21c00-4441-11eb-9c25-f96195257de3.png" width="300"><img src="https://user-images.githubusercontent.com/64371072/102921422-348ab280-4441-11eb-8017-48f5161433d6.png" width="300">
 
-<img width="365" alt="Screen Shot 2020-12-22 at 10 43 11 AM" src="https://user-images.githubusercontent.com/64371072/102922230-90097000-4442-11eb-909e-f7db072b292a.png"><img width="358" alt="Screen Shot 2020-12-22 at 10 20 45 AM" src="https://user-images.githubusercontent.com/64371072/102921408-30f72b80-4441-11eb-8dd6-e10fec8bf26c.png">
+
+<img src="https://user-images.githubusercontent.com/64371072/102921415-33f21c00-4441-11eb-9c25-f96195257de3.png" width="300"><img src="https://user-images.githubusercontent.com/64371072/102921435-381e3980-4441-11eb-93bc-40a94e4948f7.png" width="300">
+
+
+<img src="https://user-images.githubusercontent.com/64371072/102922230-90097000-4442-11eb-909e-f7db072b292a.png" width="300"><img src="https://user-images.githubusercontent.com/64371072/102921408-30f72b80-4441-11eb-8dd6-e10fec8bf26c.png" width="300">

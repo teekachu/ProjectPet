@@ -24,11 +24,9 @@ What:
 
 Sample Images: 
 
+<img src="https://user-images.githubusercontent.com/64371072/107791769-2ce0df00-6d09-11eb-906e-1b251015d394.png" width="200">
 
-<img src="https://user-images.githubusercontent.com/64371072/102921415-33f21c00-4441-11eb-9c25-f96195257de3.png" width="300"><img src="https://user-images.githubusercontent.com/64371072/102921422-348ab280-4441-11eb-8017-48f5161433d6.png" width="300">
+<img src="https://user-images.githubusercontent.com/64371072/107791778-2f433900-6d09-11eb-8464-4f362f2d6911.png" width="200">
 
+<img src="https://user-images.githubusercontent.com/64371072/107791783-30746600-6d09-11eb-8d2d-ee845b2dea84.png" width="200">
 
-<img src="https://user-images.githubusercontent.com/64371072/102921415-33f21c00-4441-11eb-9c25-f96195257de3.png" width="300"><img src="https://user-images.githubusercontent.com/64371072/102921435-381e3980-4441-11eb-93bc-40a94e4948f7.png" width="300">
-
-
-<img src="https://user-images.githubusercontent.com/64371072/102922230-90097000-4442-11eb-909e-f7db072b292a.png" width="300"><img src="https://user-images.githubusercontent.com/64371072/102921408-30f72b80-4441-11eb-8dd6-e10fec8bf26c.png" width="300">

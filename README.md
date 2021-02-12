@@ -26,3 +26,7 @@ Sample Images:
 
 <img src="https://user-images.githubusercontent.com/64371072/107791769-2ce0df00-6d09-11eb-906e-1b251015d394.png" width="200">  <img src="https://user-images.githubusercontent.com/64371072/107791778-2f433900-6d09-11eb-8464-4f362f2d6911.png" width="200">  <img src="https://user-images.githubusercontent.com/64371072/107791783-30746600-6d09-11eb-8d2d-ee845b2dea84.png" width="200">
 
+
+Design Templates: 
+<img src="https://user-images.githubusercontent.com/64371072/107791769-2ce0df00-6d09-11eb-906e-1b251015d394.png" width="200">
+

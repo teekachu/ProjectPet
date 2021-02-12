@@ -1,6 +1,11 @@
 # ProjectPet
 
+Disclaimer: I worked on this project in August, which is about ~3 months after I started learning Swift. The code base is complete shhh. I know. I will re-do it and show a comparison of the code base on how I would build this differently, after 8 months of learning Swift and iOS development :) 
+
+What: 
 Simple project created for a small veterinary clinic. The application allow their users to contact them easily and are able to provide information in return about their pets. 
+
+How:
 
 	•	Fetch the config.json file to check for chat and call feature availability and work hours. 
 
@@ -13,6 +18,7 @@ Simple project created for a small veterinary clinic. The application allow thei
 	•	Views adjust to orientation and screen size accordingly using Autolayout constraints.
 
 	•	Used Github to host both json files. 
+
 
 Sample Images: 
 

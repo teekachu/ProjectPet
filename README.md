@@ -4,10 +4,10 @@
 
 
 
-What: 
+Why: 
 Simple project created for a small veterinary clinic. The application allow their users to contact them easily and are able to provide information in return about their pets. 
 
-How:
+What:
 
 	•	Fetch the config.json file to check for chat and call feature availability and work hours. 
 

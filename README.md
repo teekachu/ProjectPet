@@ -1,6 +1,6 @@
 # ProjectPet
 
-***Disclaimer: I worked on this project in August 2020, which is about ~3 months after I started learning Swift. The code base is complete shhh. I know. I will re-do it and show a comparison of the code base on how I would build this differently, after 8 months of learning Swift and iOS development :)***
+***Disclaimer: I worked on this project in August 2020, which is about ~3 months after I started learning Swift. The code base is complete shhh. I know. I will re-do it and show a comparison of the code base on how I would build this differently, as February 2nd marks 8 months of learning Swift and iOS development :)***
 
 
 

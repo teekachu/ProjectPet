@@ -28,5 +28,6 @@ Sample Images:
 
 
 Design Templates: 
-<img src="https://user-images.githubusercontent.com/64371072/107791769-2ce0df00-6d09-11eb-906e-1b251015d394.png" width="200">
+<img src="https://user-images.githubusercontent.com/64371072/107801042-6bc86200-6d14-11eb-9050-4355698eeda7.png" width="200">
+
 

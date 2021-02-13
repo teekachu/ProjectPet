@@ -14,6 +14,10 @@
 		A73C696325D6DE1400B58BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73C696125D6DE1400B58BAF /* LaunchScreen.storyboard */; };
 		A73C697425D6E1E000B58BAF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C697225D6E1E000B58BAF /* HomeViewController.swift */; };
 		A73C697525D6E1E000B58BAF /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73C697325D6E1E000B58BAF /* HomeViewController.xib */; };
+		A73C697A25D7257900B58BAF /* WorkHoursViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C697925D7257900B58BAF /* WorkHoursViewModel.swift */; };
+		A73C697D25D77E6100B58BAF /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C697C25D77E6100B58BAF /* settings.swift */; };
+		A73C698025D77EFD00B58BAF /* JsonParsingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C697F25D77EFD00B58BAF /* JsonParsingManager.swift */; };
+		A73C698725D78C6D00B58BAF /* TBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C698625D78C6D00B58BAF /* TBError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		A73C696425D6DE1400B58BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A73C697225D6E1E000B58BAF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A73C697325D6E1E000B58BAF /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A73C697925D7257900B58BAF /* WorkHoursViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkHoursViewModel.swift; sourceTree = "<group>"; };
+		A73C697C25D77E6100B58BAF /* settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settings.swift; sourceTree = "<group>"; };
+		A73C697F25D77EFD00B58BAF /* JsonParsingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParsingManager.swift; sourceTree = "<group>"; };
+		A73C698625D78C6D00B58BAF /* TBError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 		A73C695525D6DE1300B58BAF /* ProjectPetNew */ = {
 			isa = PBXGroup;
 			children = (
+				A73C698B25D78D7400B58BAF /* Extensions */,
 				A73C697125D6E1A000B58BAF /* Support */,
 				A73C697025D6E19400B58BAF /* ViewModel */,
 				A73C696F25D6E18B00B58BAF /* View */,
@@ -73,6 +82,8 @@
 		A73C696E25D6E18500B58BAF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A73C697F25D77EFD00B58BAF /* JsonParsingManager.swift */,
+				A73C697C25D77E6100B58BAF /* settings.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +100,7 @@
 		A73C697025D6E19400B58BAF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				A73C697925D7257900B58BAF /* WorkHoursViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -98,8 +110,16 @@
 			children = (
 				A73C695625D6DE1300B58BAF /* AppDelegate.swift */,
 				A73C695825D6DE1300B58BAF /* SceneDelegate.swift */,
+				A73C698625D78C6D00B58BAF /* TBError.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		A73C698B25D78D7400B58BAF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,10 +192,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A73C698725D78C6D00B58BAF /* TBError.swift in Sources */,
+				A73C697A25D7257900B58BAF /* WorkHoursViewModel.swift in Sources */,
 				A73C695B25D6DE1300B58BAF /* ViewController.swift in Sources */,
+				A73C698025D77EFD00B58BAF /* JsonParsingManager.swift in Sources */,
 				A73C695725D6DE1300B58BAF /* AppDelegate.swift in Sources */,
 				A73C695925D6DE1300B58BAF /* SceneDelegate.swift in Sources */,
 				A73C697425D6E1E000B58BAF /* HomeViewController.swift in Sources */,
+				A73C697D25D77E6100B58BAF /* settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

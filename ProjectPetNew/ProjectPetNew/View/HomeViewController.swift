@@ -9,22 +9,68 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    // MARK - IB Properties
+    @IBOutlet weak var chatButton: UIButton!
+    @IBOutlet weak var callButton: UIButton!
+    @IBOutlet weak var officeHourLabel: UILabel!
+    
+    @IBAction func chatButtonTapped(_ sender: Any) {
+        print("chat")
+    }
+    
+    @IBAction func callButtonTapped(_ sender: Any) {
+        print("call")
+    }
+    // MARK - Properties
+    
+    
+    
+    // MARK - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        view.backgroundColor = .orange
-        // Do any additional setup after loading the view.
+        configureUI()
+        applyViewModelsToButton()
+        parseJsonForOfficeHour()
+    }
+    
+    
+    // MARK - Privates
+    private func configureUI(){
+        
+        chatButton.backgroundColor = .systemBlue
+        callButton.backgroundColor = .systemGreen
+        
+        officeHourLabel.configureElementUi(cornerRadius: 0, borderColor: .lightGray)
+        callButton.configureElementUi(cornerRadius: 8, borderColor: .lightGray)
+        chatButton.configureElementUi(cornerRadius: 8, borderColor: .lightGray)
+    }
+    
+    private func applyViewModelsToButton(){
+        
+    }
+    
+    private func parseJsonForOfficeHour(){
+        
+        // work schedule
+        JsonParsingManager.shared.parseJson { (result) in
+            switch result {
+            case .failure(let err):
+                print(err)
+                
+            case .success(let msg):
+                print(msg)
+            }
+        }
     }
 
+}
 
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+// MARK - Ext+UIView
+extension UIView {
+    func configureElementUi(cornerRadius:CGFloat, borderColor: UIColor){
+        self.layer.cornerRadius = cornerRadius
+        self.layer.borderColor = borderColor.cgColor
+        self.layer.borderWidth = 1.5
     }
-    */
-
 }

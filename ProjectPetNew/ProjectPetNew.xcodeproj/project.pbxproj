@@ -9,31 +9,35 @@
 /* Begin PBXBuildFile section */
 		A73C695725D6DE1300B58BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C695625D6DE1300B58BAF /* AppDelegate.swift */; };
 		A73C695925D6DE1300B58BAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C695825D6DE1300B58BAF /* SceneDelegate.swift */; };
-		A73C695B25D6DE1300B58BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C695A25D6DE1300B58BAF /* ViewController.swift */; };
 		A73C696025D6DE1400B58BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A73C695F25D6DE1400B58BAF /* Assets.xcassets */; };
 		A73C696325D6DE1400B58BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A73C696125D6DE1400B58BAF /* LaunchScreen.storyboard */; };
 		A73C697425D6E1E000B58BAF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C697225D6E1E000B58BAF /* HomeViewController.swift */; };
 		A73C697525D6E1E000B58BAF /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73C697325D6E1E000B58BAF /* HomeViewController.xib */; };
 		A73C697A25D7257900B58BAF /* WorkHoursViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C697925D7257900B58BAF /* WorkHoursViewModel.swift */; };
-		A73C697D25D77E6100B58BAF /* settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C697C25D77E6100B58BAF /* settings.swift */; };
+		A73C697D25D77E6100B58BAF /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C697C25D77E6100B58BAF /* Setting.swift */; };
 		A73C698025D77EFD00B58BAF /* JsonParsingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C697F25D77EFD00B58BAF /* JsonParsingManager.swift */; };
 		A73C698725D78C6D00B58BAF /* TBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C698625D78C6D00B58BAF /* TBError.swift */; };
+		A73C698E25D791F700B58BAF /* Pets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C698D25D791F700B58BAF /* Pets.swift */; };
+		A73C699425D798C500B58BAF /* PetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C699225D798C500B58BAF /* PetTableViewCell.swift */; };
+		A73C699525D798C500B58BAF /* PetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73C699325D798C500B58BAF /* PetTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A73C695325D6DE1300B58BAF /* ProjectPetNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectPetNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A73C695625D6DE1300B58BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A73C695825D6DE1300B58BAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A73C695A25D6DE1300B58BAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A73C695F25D6DE1400B58BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A73C696225D6DE1400B58BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A73C696425D6DE1400B58BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A73C697225D6E1E000B58BAF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A73C697325D6E1E000B58BAF /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		A73C697925D7257900B58BAF /* WorkHoursViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkHoursViewModel.swift; sourceTree = "<group>"; };
-		A73C697C25D77E6100B58BAF /* settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settings.swift; sourceTree = "<group>"; };
+		A73C697C25D77E6100B58BAF /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		A73C697F25D77EFD00B58BAF /* JsonParsingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParsingManager.swift; sourceTree = "<group>"; };
 		A73C698625D78C6D00B58BAF /* TBError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBError.swift; sourceTree = "<group>"; };
+		A73C698D25D791F700B58BAF /* Pets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pets.swift; sourceTree = "<group>"; };
+		A73C699225D798C500B58BAF /* PetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableViewCell.swift; sourceTree = "<group>"; };
+		A73C699325D798C500B58BAF /* PetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +75,6 @@
 				A73C697025D6E19400B58BAF /* ViewModel */,
 				A73C696F25D6E18B00B58BAF /* View */,
 				A73C696E25D6E18500B58BAF /* Model */,
-				A73C695A25D6DE1300B58BAF /* ViewController.swift */,
 				A73C695F25D6DE1400B58BAF /* Assets.xcassets */,
 				A73C696125D6DE1400B58BAF /* LaunchScreen.storyboard */,
 				A73C696425D6DE1400B58BAF /* Info.plist */,
@@ -83,7 +86,8 @@
 			isa = PBXGroup;
 			children = (
 				A73C697F25D77EFD00B58BAF /* JsonParsingManager.swift */,
-				A73C697C25D77E6100B58BAF /* settings.swift */,
+				A73C697C25D77E6100B58BAF /* Setting.swift */,
+				A73C698D25D791F700B58BAF /* Pets.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -93,6 +97,8 @@
 			children = (
 				A73C697225D6E1E000B58BAF /* HomeViewController.swift */,
 				A73C697325D6E1E000B58BAF /* HomeViewController.xib */,
+				A73C699225D798C500B58BAF /* PetTableViewCell.swift */,
+				A73C699325D798C500B58BAF /* PetTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A73C696325D6DE1400B58BAF /* LaunchScreen.storyboard in Resources */,
+				A73C699525D798C500B58BAF /* PetTableViewCell.xib in Resources */,
 				A73C696025D6DE1400B58BAF /* Assets.xcassets in Resources */,
 				A73C697525D6E1E000B58BAF /* HomeViewController.xib in Resources */,
 			);
@@ -194,12 +201,13 @@
 			files = (
 				A73C698725D78C6D00B58BAF /* TBError.swift in Sources */,
 				A73C697A25D7257900B58BAF /* WorkHoursViewModel.swift in Sources */,
-				A73C695B25D6DE1300B58BAF /* ViewController.swift in Sources */,
+				A73C698E25D791F700B58BAF /* Pets.swift in Sources */,
+				A73C699425D798C500B58BAF /* PetTableViewCell.swift in Sources */,
 				A73C698025D77EFD00B58BAF /* JsonParsingManager.swift in Sources */,
 				A73C695725D6DE1300B58BAF /* AppDelegate.swift in Sources */,
 				A73C695925D6DE1300B58BAF /* SceneDelegate.swift in Sources */,
 				A73C697425D6E1E000B58BAF /* HomeViewController.swift in Sources */,
-				A73C697D25D77E6100B58BAF /* settings.swift in Sources */,
+				A73C697D25D77E6100B58BAF /* Setting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -27,7 +27,23 @@ class JsonParsingManager {
                     completion(.success(decodedTime.settings.workHours))
                     
                 } else {
-                    completion(.failure(.parsingError))
+                    completion(.failure(.parsingScheduleError))
+                }
+            }
+        }
+    }
+    
+    public func parsePetsJson(completion: @escaping (Result<[pet], TBError>) -> Void) {
+        let urlString = "https://raw.githubusercontent.com/teekachu/ProjectPet.Old/master/pets.json"
+        
+        if let url = URL(string: urlString) {
+            if let data = try? Data(contentsOf: url) {
+                
+                if let decodedPets = try? JSONDecoder().decode(Pets.self, from: data) {
+                    completion(.success(decodedPets.pets))
+                    
+                } else {
+                    completion(.failure(.parsingPetsError))
                 }
             }
         }

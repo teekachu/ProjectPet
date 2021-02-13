@@ -8,6 +8,7 @@
 import Foundation
 
 enum TBError: String, Error {
-    case parsingError = "Debug: Parsing error in JSONParsingManager"
+    case parsingScheduleError = "Debug: Parsing error in JSONParsingManager for work hours"
     
+    case parsingPetsError = "Debug: Parsing error in JSONParsingManager for pets"
 }

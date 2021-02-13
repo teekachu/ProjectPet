@@ -13,6 +13,7 @@
                 <outlet property="callButton" destination="tPv-dQ-xHV" id="3FS-aw-6mX"/>
                 <outlet property="chatButton" destination="wmf-v7-nkZ" id="jlc-uO-RQK"/>
                 <outlet property="officeHourLabel" destination="O9o-dB-qNq" id="X85-Xs-J7c"/>
+                <outlet property="petsTableview" destination="o85-64-xdF" id="yQl-pQ-H4o"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,14 +22,14 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="yLo-ON-dSS">
-                    <rect key="frame" x="10" y="44" width="394" height="818"/>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="yLo-ON-dSS">
+                    <rect key="frame" x="10" y="54" width="394" height="798"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sH8-Mp-ZdQ">
-                            <rect key="frame" x="0.0" y="0.0" width="394" height="145"/>
+                            <rect key="frame" x="0.0" y="0.0" width="394" height="150"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Xjh-ty-7Bo">
-                                    <rect key="frame" x="5" y="5" width="384" height="135"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Xjh-ty-7Bo">
+                                    <rect key="frame" x="5" y="5" width="384" height="140"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rp0-tr-rBB">
                                             <rect key="frame" x="0.0" y="0.0" width="384" height="65"/>
@@ -59,7 +60,7 @@
                                             </subviews>
                                         </stackView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OFFICE HOUR LABEL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9o-dB-qNq">
-                                            <rect key="frame" x="0.0" y="70" width="384" height="65"/>
+                                            <rect key="frame" x="0.0" y="75" width="384" height="65"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="65" id="x2d-Jx-Q27"/>
                                             </constraints>
@@ -79,7 +80,7 @@
                             </constraints>
                         </view>
                         <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="o85-64-xdF">
-                            <rect key="frame" x="0.0" y="157" width="394" height="661"/>
+                            <rect key="frame" x="0.0" y="160" width="394" height="638"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         </tableView>
                     </subviews>
@@ -88,9 +89,9 @@
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="yLo-ON-dSS" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="7Se-uj-Rj0"/>
+                <constraint firstItem="yLo-ON-dSS" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="7Se-uj-Rj0"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yLo-ON-dSS" secondAttribute="trailing" constant="10" id="RJZ-yB-6ZO"/>
-                <constraint firstItem="yLo-ON-dSS" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" id="TE0-Cb-sBP"/>
+                <constraint firstItem="yLo-ON-dSS" firstAttribute="bottom" secondItem="fnl-2z-Ty3" secondAttribute="bottom" constant="-10" id="TE0-Cb-sBP"/>
                 <constraint firstItem="yLo-ON-dSS" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="vEb-6p-lsa"/>
             </constraints>
             <point key="canvasLocation" x="-146.37681159420291" y="108.48214285714285"/>

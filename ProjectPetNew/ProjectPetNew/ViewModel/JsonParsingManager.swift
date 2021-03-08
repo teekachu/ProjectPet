@@ -16,7 +16,7 @@ class JsonParsingManager {
     private init() {}
     
     // MARK: - Properties
-    public func parseJson(completion: @escaping (Result<String,TBError>) -> Void) {
+    public func parseJson(completion: @escaping (Result<settings,TBError>) -> Void) {
         
         let urlString = "https://raw.githubusercontent.com/teekachu/ProjectPet.Old/master/config.json"
         
@@ -24,7 +24,7 @@ class JsonParsingManager {
             if let data = try? Data(contentsOf: url) {
                 
                 if let decodedTime = try? JSONDecoder().decode(Setting.self, from: data) {
-                    completion(.success(decodedTime.settings.workHours))
+                    completion(.success(decodedTime.settings))
                     
                 } else {
                     completion(.failure(.parsingScheduleError))
@@ -48,4 +48,5 @@ class JsonParsingManager {
             }
         }
     }
+    
 }

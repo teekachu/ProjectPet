@@ -20,6 +20,8 @@
 		A73C698E25D791F700B58BAF /* Pets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C698D25D791F700B58BAF /* Pets.swift */; };
 		A73C699425D798C500B58BAF /* PetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73C699225D798C500B58BAF /* PetTableViewCell.swift */; };
 		A73C699525D798C500B58BAF /* PetTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A73C699325D798C500B58BAF /* PetTableViewCell.xib */; };
+		A75D7D0C25F69AF400A2525D /* Ext+UIAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75D7D0B25F69AF400A2525D /* Ext+UIAlertController.swift */; };
+		A75D7D1025F6A29600A2525D /* DetaiIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A75D7D0E25F6A29600A2525D /* DetaiIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		A73C698D25D791F700B58BAF /* Pets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pets.swift; sourceTree = "<group>"; };
 		A73C699225D798C500B58BAF /* PetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetTableViewCell.swift; sourceTree = "<group>"; };
 		A73C699325D798C500B58BAF /* PetTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetTableViewCell.xib; sourceTree = "<group>"; };
+		A75D7D0B25F69AF400A2525D /* Ext+UIAlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+UIAlertController.swift"; sourceTree = "<group>"; };
+		A75D7D0E25F6A29600A2525D /* DetaiIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaiIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +89,6 @@
 		A73C696E25D6E18500B58BAF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A73C697F25D77EFD00B58BAF /* JsonParsingManager.swift */,
 				A73C697C25D77E6100B58BAF /* Setting.swift */,
 				A73C698D25D791F700B58BAF /* Pets.swift */,
 			);
@@ -99,6 +102,7 @@
 				A73C697325D6E1E000B58BAF /* HomeViewController.xib */,
 				A73C699225D798C500B58BAF /* PetTableViewCell.swift */,
 				A73C699325D798C500B58BAF /* PetTableViewCell.xib */,
+				A75D7D0E25F6A29600A2525D /* DetaiIViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -107,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				A73C697925D7257900B58BAF /* WorkHoursViewModel.swift */,
+				A73C697F25D77EFD00B58BAF /* JsonParsingManager.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 		A73C698B25D78D7400B58BAF /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A75D7D0B25F69AF400A2525D /* Ext+UIAlertController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -201,10 +207,12 @@
 			files = (
 				A73C698725D78C6D00B58BAF /* TBError.swift in Sources */,
 				A73C697A25D7257900B58BAF /* WorkHoursViewModel.swift in Sources */,
+				A75D7D1025F6A29600A2525D /* DetaiIViewController.swift in Sources */,
 				A73C698E25D791F700B58BAF /* Pets.swift in Sources */,
 				A73C699425D798C500B58BAF /* PetTableViewCell.swift in Sources */,
 				A73C698025D77EFD00B58BAF /* JsonParsingManager.swift in Sources */,
 				A73C695725D6DE1300B58BAF /* AppDelegate.swift in Sources */,
+				A75D7D0C25F69AF400A2525D /* Ext+UIAlertController.swift in Sources */,
 				A73C695925D6DE1300B58BAF /* SceneDelegate.swift in Sources */,
 				A73C697425D6E1E000B58BAF /* HomeViewController.swift in Sources */,
 				A73C697D25D77E6100B58BAF /* Setting.swift in Sources */,

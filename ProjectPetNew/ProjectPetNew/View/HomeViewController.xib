@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -31,13 +32,13 @@
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Xjh-ty-7Bo">
                                     <rect key="frame" x="5" y="5" width="384" height="140"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="rp0-tr-rBB">
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="rp0-tr-rBB">
                                             <rect key="frame" x="0.0" y="0.0" width="384" height="65"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmf-v7-nkZ">
-                                                    <rect key="frame" x="0.0" y="0.0" width="44" height="65"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmf-v7-nkZ">
+                                                    <rect key="frame" x="0.0" y="0.0" width="188" height="65"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="65" id="Xoi-ti-cyW"/>
+                                                        <constraint firstAttribute="height" constant="65" id="ITN-Vo-K4g"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                     <state key="normal" title="Chat">
@@ -48,7 +49,7 @@
                                                     </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPv-dQ-xHV">
-                                                    <rect key="frame" x="54" y="0.0" width="330" height="65"/>
+                                                    <rect key="frame" x="196" y="0.0" width="188" height="65"/>
                                                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                     <state key="normal" title="Call">
                                                         <color key="titleColor" red="1" green="1" blue="1" alpha="0.8980392157" colorSpace="calibratedRGB"/>
@@ -58,6 +59,9 @@
                                                     </connections>
                                                 </button>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="wmf-v7-nkZ" firstAttribute="width" secondItem="tPv-dQ-xHV" secondAttribute="width" id="wGV-Jd-rXX"/>
+                                            </constraints>
                                         </stackView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="OFFICE HOUR LABEL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9o-dB-qNq">
                                             <rect key="frame" x="0.0" y="75" width="384" height="65"/>

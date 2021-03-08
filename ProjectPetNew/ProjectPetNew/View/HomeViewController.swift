@@ -16,19 +16,24 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var petsTableview: UITableView!
     
     @IBAction func chatButtonTapped(_ sender: Any) {
-        print("chat")
+        let msg = viewmodel.parseCurrentTime()
+        let ac = UIAlertController.showAlert(title: nil, message: msg, actionTitle: "Cancel")
+        present(ac, animated: true)
+        
     }
     
     @IBAction func callButtonTapped(_ sender: Any) {
-        print("call")
+        let msg = viewmodel.parseCurrentTime()
+        let ac = UIAlertController.showAlert(title: nil, message: msg, actionTitle: "Cancel")
+        present(ac, animated: true)
     }
     
     
     // MARK - Properties
     private var workHour = "loading ..."
     private var petsData = [pet]()
-//    private let petTableCellIdentifier = "CustomTableViewCell"
     
+    var viewmodel = WorkhoursViewModel()
     
     // MARK - Lifecycle
     override func viewDidLoad() {
@@ -36,15 +41,14 @@ class HomeViewController: UIViewController {
         configureUI()
         applyViewModelsToButton()
         parseJsonForOfficeHour()
-        
         parsePetsJson()
-        
         configureTableView()
     }
     
     
     // MARK - Privates
     private func configureUI(){
+        title = "Pet Project Redo"
         
         chatButton.backgroundColor = .systemBlue
         callButton.backgroundColor = .systemGreen
@@ -56,16 +60,23 @@ class HomeViewController: UIViewController {
     
     
     private func configureTableView(){
+        let tableviewCellNib = UINib(nibName: "PetTableViewCell", bundle: nil)
+        
+        petsTableview.register(tableviewCellNib, forCellReuseIdentifier: PetTableViewCell.petTableCellIdentifier)
+        
         petsTableview.delegate = self
         petsTableview.dataSource = self
-        petsTableview.register(PetTableViewCell.self, forCellReuseIdentifier: PetTableViewCell.petTableCellIdentifier)
+        
     }
     
+    // remove / add the ! will show what different status looks like for buttons
     private func applyViewModelsToButton(){
         // show or hide based on work hours
+        chatButton.isHidden = !viewmodel.enableChatButton()
+        callButton.isHidden = !viewmodel.enableCallButton()
     }
     
-    private func parseJsonForOfficeHour(){
+    private func parseJsonForOfficeHour() {
         // work schedule
         JsonParsingManager.shared.parseJson {[weak self] (result) in
             
@@ -76,10 +87,11 @@ class HomeViewController: UIViewController {
                 self?.present(ac, animated: true)
                 
             case .success(let msg):
-                self?.workHour = msg
+                self?.workHour = msg.workHours
                 self?.officeHourLabel.text = "Office Hours: " + self!.workHour
             }
         }
+        
     }
     
     private func parsePetsJson(){
@@ -112,9 +124,22 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
         let eachPet = petsData[indexPath.row]
         
         // actually calls the pet function inside tableview cell
-        (cell as configurePetTableviewCell ).set(petInfo: eachPet)
+        cell.set(petInfo: eachPet)
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 80
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        
+        let vc = DetaiIViewController()
+        vc.petname = petsData[indexPath.row].title
+        navigationController?.pushViewController(vc, animated: true)
+
     }
     
 }

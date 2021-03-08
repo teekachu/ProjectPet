@@ -1,14 +1,15 @@
 # ProjectPet
 
 ***
-Disclaimer: I worked on this project for the first time in August 2020, which is about ~3 months after I started teaching myself Swift. Several months later, I decided to re-do this project and see what I would do differently. This repo contains the Old version(August 2020) and new version(Feb 2021). Both app contains the same functionalities.
+NOTE: 
+I worked on this project for the first time in August 2020, which is about ~3 months after I started teaching myself Swift. Several months later, I decided to re-do this project and see what I would do differently. This repo contains the Old version(August 2020) and new version(Feb 2021). Both app contains the same functionalities.
 ***
 
-Why: 
+WHY: 
 Simple project created for a small veterinary clinic. The application allow their users to contact them easily and are able to provide information in return about their pets. 
 ***
 
-What:
+WHAT:
 - Fetch the config.json file to check for chat and call feature availability and work hours. 
 - Show different alert as well as disable call, chat buttons accordingly if outside of work ours. 
 - Fetch the pets.json for pet information to display on the screen

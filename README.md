@@ -4,25 +4,18 @@
 Disclaimer: I worked on this project for the first time in August 2020, which is about ~3 months after I started teaching myself Swift. Several months later, I decided to re-do this project and see what I would do differently. This repo contains the Old version(August 2020) and new version(Feb 2021). Both app contains the same functionalities.
 ***
 
-
-
 Why: 
 Simple project created for a small veterinary clinic. The application allow their users to contact them easily and are able to provide information in return about their pets. 
+***
 
 What:
-
-	•	Fetch the config.json file to check for chat and call feature availability and work hours. 
-
-	•	Show different alert as well as disable call, chat buttons accordingly if outside of work ours. 
-	
-	•	Fetch the pets.json for pet information to display on the screen
-
-	•	Tapping on a pet info cell would open a new screen that loads the pet information on a webview
-	
-	•	Views adjust to orientation and screen size accordingly using Autolayout constraints.
-
-	•	Used Github to host both json files. 
-
+- Fetch the config.json file to check for chat and call feature availability and work hours. 
+- Show different alert as well as disable call, chat buttons accordingly if outside of work ours. 
+- Fetch the pets.json for pet information to display on the screen
+- Tapping on a pet info cell would open a new screen that loads the pet information on a webview
+- Views adjust to orientation and screen size accordingly using Autolayout constraints.
+- Used Github to host both json files. 
+***
 
 Sample Images: 
 

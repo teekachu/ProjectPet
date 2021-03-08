@@ -1,6 +1,8 @@
 # ProjectPet
 
-***Disclaimer: I worked on this project for the first time in August 2020, which is about ~3 months after I started teaching myself Swift. Several months later, I decided to re-do this project and see what I would do differently. This repo contains the Old version(August 2020) and new version(Feb 2021). Both app contains the same functionalities. ***
+>>>
+Disclaimer: I worked on this project for the first time in August 2020, which is about ~3 months after I started teaching myself Swift. Several months later, I decided to re-do this project and see what I would do differently. This repo contains the Old version(August 2020) and new version(Feb 2021). Both app contains the same functionalities.
+>>>
 
 
 
